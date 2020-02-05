@@ -1,0 +1,66 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: dimgray;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.main-container {
+    width: 25%;
+    float: left;
+    padding: 220px 0 0;
+
+}
+
+/*background-white*/
+.icon-all {
+    background-color: white;
+    font-size: 100px;
+    height: 200px;
+    text-align: center;
+    width: 200px;
+    border-radius: 50%;
+    transition: transform 0.7s;
+    position: relative;
+}
+
+.fab {
+    transform: translate(5%, 45%);
+}
+
+.fb:hover {
+    background-color: #3b5998;
+    color: white;
+    transform: scale(0.9);
+
+}
+
+.twitter:hover {
+    background-color: #1877f2;
+    color: white;
+    transform: scale(0.9);
+}
+
+.insta:hover {
+    background-color: #d80051;
+    color: white;
+    transform: scale(0.9);
+}
+
+.youtube:hover {
+    background-color: #e70000;
+    color: white;
+    transform: scale(0.9);
+}
